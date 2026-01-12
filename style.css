@@ -2,4 +2,69 @@
     width: 1900px;
     height: 890px;
     border: 2px solid black;
+    background-color: rgb(196, 255, 255);
+}
+
+.head {
+    position: absolute;
+    top: 225px;
+    left: 350px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: white;
+}
+
+.peddle1 {
+    position: absolute;
+    top: 162px;
+    left: 387px;
+    width: 75px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: white;
+}
+
+.peddle2 {
+    position: absolute;
+    rotate: -75deg;
+    top: 205px;
+    left: 325px;
+    width: 75px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: white;
+}
+
+.peddle3 {
+    position: absolute;
+    rotate: 75deg;
+    top: 205px;
+    left: 455px;
+    width: 75px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: white;
+}
+
+.peddle4 {
+    position: absolute;
+    rotate: 50deg;
+    top: 285px;
+    left: 335px;
+    width: 75px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: white;
+}
+
+.peddle5 {
+    position: absolute;
+    rotate: -50deg;
+    top: 285px;
+    left: 435px;
+    width: 75px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: white;
 }
