@@ -17,7 +17,7 @@
 
 .peddle1 {
     position: absolute;
-    top: 162px;
+    top: 156px;
     left: 387px;
     width: 75px;
     height: 150px;
@@ -36,6 +36,16 @@
     background-color: white;
 }
 
+.eyel {
+    position: absolute;
+    top: 264px;
+    left: 325px;
+    width: 20px;
+    height: 20px;
+    background-color: black;
+    border-radius: 50%;
+}
+
 .peddle3 {
     position: absolute;
     rotate: 75deg;
@@ -45,6 +55,16 @@
     height: 150px;
     border-radius: 50%;
     background-color: white;
+}
+
+.eyer {
+    position: absolute;
+    top: 264px;
+    left: 512px;
+    width: 20px;
+    height: 20px;
+    background-color: black;
+    border-radius: 50%;
 }
 
 .peddle4 {
@@ -65,6 +85,56 @@
     left: 435px;
     width: 75px;
     height: 150px;
+    border-radius: 50%;
+    background-color: white;
+}
+
+.body {
+    position: absolute;
+    z-index: 1;
+    top: 420px;
+    left: 335px;
+    width: 175px;
+    height: 175px;
+    border-radius: 50%;
+    background-color: white;
+}
+
+.neck {
+    position: absolute;
+    top: 375px;
+    left: 385px;
+    width: 75px;
+    height: 75px;
+    background-color: white;
+}
+
+.arml {
+    rotate: 50deg;
+    position: absolute;
+    top: 430px;
+    left: 295px;
+    width: 15px;
+    height: 150px;
+    background-color: chocolate;
+}
+
+.armr {
+    rotate: -50deg;
+    position: absolute;
+    top: 430px;
+    left: 535px;
+    width: 15px;
+    height: 150px;
+    background-color: chocolate;
+}
+
+.body2 {
+    position: absolute;
+    top: 500px;
+    left: 325px;
+    width: 200px;
+    height: 200px;
     border-radius: 50%;
     background-color: white;
 }
