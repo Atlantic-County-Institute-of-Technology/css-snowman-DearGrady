@@ -1,4 +1,5 @@
 .container {
+    /* Holds the Snowogorgon */
     width: 1900px;
     height: 890px;
     border: 2px solid black;
@@ -6,6 +7,7 @@
 }
 
 .head {
+    /* The head of the Snowogorgon */
     position: absolute;
     top: 225px;
     left: 350px;
@@ -16,6 +18,7 @@
 }
 
 .peddle1 {
+    /* Peddle thing on the top of its head, repeated five times */
     position: absolute;
     top: 156px;
     left: 387px;
@@ -23,6 +26,17 @@
     height: 150px;
     border-radius: 50%;
     background-color: white;
+}
+
+.eyet {
+    /* Eyes on the peddle thing, again repeated five times */
+    position: absolute;
+    top: 175px;
+    left: 415px;
+    width: 20px;
+    height: 20px;
+    background-color: black;
+    border-radius: 50%;
 }
 
 .peddle2 {
@@ -78,6 +92,16 @@
     background-color: white;
 }
 
+.eyeb1 {   
+    position: absolute;
+    top: 364px;
+    left: 340px;
+    width: 20px;
+    height: 20px;
+    background-color: black;
+    border-radius: 50%;
+}
+
 .peddle5 {
     position: absolute;
     rotate: -50deg;
@@ -89,7 +113,18 @@
     background-color: white;
 }
 
+.eyeb2 {   
+    position: absolute;
+    top: 364px;
+    left: 479px;
+    width: 20px;
+    height: 20px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 50%;
+}
+
 .body {
+    /* Body of the Snowogorgon */
     position: absolute;
     z-index: 1;
     top: 420px;
@@ -101,6 +136,7 @@
 }
 
 .neck {
+    /* Neck of the Snowogorgon */
     position: absolute;
     top: 375px;
     left: 385px;
@@ -110,6 +146,7 @@
 }
 
 .arml {
+    /* The left arm of the Snowogorgon */
     rotate: 50deg;
     position: absolute;
     top: 430px;
@@ -120,6 +157,7 @@
 }
 
 .armr {
+    /* The right arm of the Snowogorgon */
     rotate: -50deg;
     position: absolute;
     top: 430px;
@@ -130,6 +168,7 @@
 }
 
 .body2 {
+    /* The second half of the body of the Snowogorgon */
     position: absolute;
     top: 500px;
     left: 325px;
@@ -137,4 +176,38 @@
     height: 200px;
     border-radius: 50%;
     background-color: white;
+}
+
+.button1 {
+    /* The buttons on the body of the Snowgorgon, repeated two more times */
+    z-index: 3;
+    position: absolute;
+    top: 464px;
+    left: 410px;
+    width: 20px;
+    height: 20px;
+    background-color: black;
+    border-radius: 50%;
+}
+
+.button2 {
+    z-index: 3;
+    position: absolute;
+    top: 554px;
+    left: 410px;
+    width: 20px;
+    height: 20px;
+    background-color: black;
+    border-radius: 50%;
+}
+
+.button3 {
+    z-index: 3;
+    position: absolute;
+    top: 644px;
+    left: 410px;
+    width: 20px;
+    height: 20px;
+    background-color: black;
+    border-radius: 50%;
 }
